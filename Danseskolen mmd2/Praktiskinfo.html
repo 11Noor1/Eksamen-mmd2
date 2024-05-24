@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="Da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danseskolen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .w3-sidebar a {
+        font-family: "Roboto", sans-serif;
+      }
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      .w3-wide {
+        font-family: "Montserrat", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="w3-content" style="max-width: 1200px">
+    <!-- Sidebar/menu -->
+    <nav
+      class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top"
+      style="z-index: 3; width: 250px"
+      id="mySidebar"
+    >
+      <div class="w3-container w3-display-container w3-padding-16">
+        <i
+          onclick="w3_close()"
+          class="fa fa-remove w3-hide-large w3-button w3-display-topright"
+        ></i>
+        <h3 class="w3-wide"><b>LOGO</b></h3>
+      </div>
+      <div
+        class="w3-padding-64 w3-large w3-text-grey"
+        style="font-weight: bold"
+      >
+        <a href="Omos.html" class="w3-bar-item w3-button">Om os</a>
+        <a href="Pogrammer.html" class="w3-bar-item w3-button">Pogrammer 2024/25</a>
+        <a
+          onclick="myAccFunc()"
+          href="javascript:void(0)"
+          class="w3-button w3-block w3-white w3-left-align"
+          id="myBtn"
+        >
+          Dansestile <i class="fa fa-caret-down"></i>
+        </a>
+        <div
+          id="demoAcc"
+          class="w3-bar-block w3-hide w3-padding-large w3-medium"
+        >
+          <a href="#" class="w3-bar-item w3-button w3-light-grey"
+            ><i class="fa fa-caret-right w3-margin-right"></i>Afdansningsbal</a
+          >
+          <a href="#" class="w3-bar-item w3-button">Pardans</a>
+          <a href="#" class="w3-bar-item w3-button">Mgpdans</a>
+          <a href="#" class="w3-bar-item w3-button">Shows</a>
+        </div>
+        <a href="Praktiskinfo.html" class="w3-bar-item w3-button">Praktisk info</a>
+      </div>
+      <a
+        href="javascript:void(0)"
+        class="w3-bar-item w3-button w3-padding"
+        onclick="document.getElementById('newsletter').style.display='block'"
+        >Newsletter</a
+      >
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+      <div class="w3-bar-item w3-padding-24 w3-wide">LOGO</div>
+      <a
+        href="javascript:void(0)"
+        class="w3-bar-item w3-button w3-padding-24 w3-right"
+        onclick="w3_open()"
+        ><i class="fa fa-bars"></i
+      ></a>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div
+      class="w3-overlay w3-hide-large"
+      onclick="w3_close()"
+      style="cursor: pointer"
+      title="close side menu"
+      id="myOverlay"
+    ></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left: 300px">
+      <!-- Push down content on small screens -->
+      <div class="w3-hide-large" style="margin-top: 83px"></div>
+
+      <!-- Top header -->
+      <header class="w3-container w3-xlarge">
+        <a href="Index.html" class="custom-link"><p class="w3-left">Danseskolen Familien Nielsen</p></a>
+      </header>
+
+      <!-- Image header -->
+      <div
+        class="w3-display-container w3-container"
+        style="background-color: black"
+      >
+        <div class="w3-display-topleft" style="padding: 24px 48px">
+          <h1 class="w3-jumbo w3-hide-small" style="color: black !important">
+            Praktisk info
+          </h1>
+        
+        <p>Honorar pr.måned</p>
+
+        <p style="margin-left: 190px; margin-top: -40px;">325kr</p>
+        <p style="margin-left: 190px; margin-top: 18px;">325kr</p>
+
+        
+        <p style="margin-left: -2px; margin-top: -36px;">Voksne par</p>
+
+        <br> <br>
+
+        <p>1 måneds honorar = 4 undervisningsgange.</p>
+
+        <br>
+
+        <p>
+          Honoraret bedes betalt den første undervisningsgang i hver måned.Husk at angive hold- og elevnummer ved elektronisk betaling til:Reg. nr. 9570 Kontonr. 9233628Mobilpay: 43162
+        </p>
+<br>
+
+<p>
+  Hvis særlig grunde gør det aktuelt, kan udmeldelse finde sted ved skriftlig eller personlig henvendelse 14 dage før ny måneds begyndelse. Har udmeldelse med angivelse af rimelig grund ikke fundet sted, hæfter eleven for hele kursusperioden.
+</p>
+
+
+<br>
+
+KURSUSVARIGHED
+Sæsonstart uge 35 (28. aug. - 1. sept.)Kurset varer 7 måneder og afsluttes med afdansningsballer lørdag d. 16. marts 2024 i MCH - Herning Kongresecenter.
+
+      <style>
+        img {
+          vertical-align: middle; /* Aligns the image vertically */
+          margin-top: 20px; /* Adjust this value as needed */
+        }
+      </style>
+
+      <br /><br /><br /><br /><br />
+
+    
+      <!-- Product grid -->
+      
+
+          <br /><br />
+          <br /><br />
+          <br /><br />
+
+          <br /><br />
+          <br /><br />
+          <br /><br />
+        </div>
+      </div>
+
+      <div
+        class="headintag"
+        style="position: relative; bottom: 200px; right: 30px"
+      >
+      </div>
+
+     
+
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+      <!-- Footer -->
+      <footer class="w3-padding-64 w3-small w3-center" id="footer">
+        <div class="w3-row-padding">
+          <div class="w3-col s4">
+            <h4>Kontakt os</h4>
+              <p>
+                <input
+                  class="w3-input w3-border"
+                  type="text"
+                  placeholder="Name"
+                  name="Name"
+                  required
+                />
+              </p>
+              <p>
+                <input
+                  class="w3-input w3-border"
+                  type="text"
+                  placeholder="Email"
+                  name="Email"
+                  required
+                />
+              </p>
+              <p>
+                <input
+                  class="w3-input w3-border"
+                  type="text"
+                  placeholder="Subject"
+                  name="Subject"
+                  required
+                />
+              </p>
+              <p>
+                <input
+                  class="w3-input w3-border"
+                  type="text"
+                  placeholder="Message"
+                  name="Message"
+                  required
+                />
+              </p>
+              <button type="submit" class="w3-button w3-block w3-black">
+                Send
+              </button>
+            </form>
+          </div>
+
+          
+
+          <div class="w3-col s4">
+            <h4>About</h4>
+            <p><a href="#">About us</a></p>
+            <p><a href="#">We're hiring</a></p>
+            <p><a href="#">Support</a></p>
+            <p><a href="#">Find store</a></p>
+            <p><a href="#">Shipment</a></p>
+            <p><a href="#">Payment</a></p>
+            <p><a href="#">Gift card</a></p>
+            <p><a href="#">Return</a></p>
+            <p><a href="#">Help</a></p>
+          </div>
+
+          <div class="w3-col s4 w3-justify">
+            <h4>Store</h4>
+            <p>
+              <i class="fa fa-fw fa-map-marker"></i>Th. Nielsens Gade 41 7400
+              Herning
+            </p>
+            <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
+            <p><i class="fa fa-fw fa-envelope"></i> ex@mail.com</p>
+            <h4>Betaling</h4>
+            <p><i class="fa fa-fw fa-credit-card"></i>Kreditkort</p>
+            <p><i class="fa fa-fw fa-credit-card"></i>Mobilepay</p>
+
+            <br />
+            <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+            <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+            <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+            <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+            <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+          </div>
+        </div>
+      </footer>
+
+      <style>
+        .move-left {
+          margin-right: 60px; /* Adjust the pixel value as needed */
+        }
+      </style>
+
+      <div class="w3-black w3-center w3-padding-24 move-left">
+        til skoleberug
+      </div>
+
+      <!-- End page content -->
+    </div>
+
+    <!-- Newsletter Modal -->
+    <div id="newsletter" class="w3-modal">
+      <div class="w3-modal-content w3-animate-zoom" style="padding: 32px">
+        <div class="w3-container w3-white w3-center">
+          <i
+            onclick="document.getElementById('newsletter').style.display='none'"
+            class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"
+          ></i>
+          <h2 class="w3-wide">NEWSLETTER</h2>
+          <p>
+            Join our mailing list to receive updates on new arrivals and special
+            offers.
+          </p>
+          <p>
+            <input
+              class="w3-input w3-border"
+              type="text"
+              placeholder="Enter e-mail"
+            />
+          </p>
+          <button
+            type="button"
+            class="w3-button w3-padding-large w3-red w3-margin-bottom"
+            onclick="document.getElementById('newsletter').style.display='none'"
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Accordion
+      function myAccFunc() {
+        var x = document.getElementById("demoAcc");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+
+      // Click on the "Jeans" link on page load to open the accordion for demo purposes
+      document.getElementById("myBtn").click();
+
+      // Open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
